@@ -1,0 +1,94 @@
+#ProductTitle {
+    /* background-color: brown; */
+    position: relative;
+    top: 30px;
+    left: 10px 
+}
+
+.button-box {
+    position: relative;
+    top: -15px;
+    left: 800px;
+    /* background-color: brown;  */
+}
+.boton {
+    box-shadow: 3px 3px black;
+}
+.cancelBoton {
+    text-decoration: none;
+    color: black;
+}
+
+#hr1 {
+    position: relative; 
+    width: 300%;
+    top: -10px;
+    left: -100px; 
+}
+/* .text-center {
+    background-color: red;
+} */
+.product_list {
+    /* background-color: aqua; */
+    display: grid;
+    margin-left: 50px;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 20px;
+}
+.product_list .product {
+    width: 80%;
+    height: 150px;
+    /* background-color: red; */
+}
+.product {
+    border: 3px solid black;
+    border-radius: 4px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: small;
+}
+.delete-checkbox {
+    position: relative;
+    top: -20px;
+    left: -75px;
+}
+.text-center {
+    font-size: 0.5rem;
+}
+/* .form-group {
+    display: none;
+    background-color: blue;
+} */
+.form-group.size {
+    display: none;
+    /* background-color: rgb(255, 21, 0); */
+}
+div.form-group.weight {
+    display: none;
+    /* background-color: rgb(255, 21, 0); */
+}
+.form-group.dimensions {
+    display: none;
+    /* background-color: rgb(255, 21, 0); */
+
+}
+.form-group.size.visible{
+    display: block;
+    /* background-color: rgb(77, 255, 0); */
+}
+.form-group.weight.visible{
+    display: block;
+    /* background-color: rgb(77, 255, 0); */
+
+}
+.form-group.dimensions.visible{
+    display: block;
+    /* background-color: rgb(77, 255, 0); */
+
+}
